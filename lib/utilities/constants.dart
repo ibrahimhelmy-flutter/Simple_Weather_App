@@ -18,3 +18,13 @@ const kButtonTextStyle = TextStyle(
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
+
+
+const kConditionInputStyle = InputDecoration(
+    fillColor: Colors.white,
+    filled: true,
+    icon: Icon(Icons.location_city),
+    border: OutlineInputBorder(
+        borderRadius: BorderRadius.all(Radius.circular(20.0))
+    )
+);

@@ -118,7 +118,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     "$message in $cityName",
                     textAlign: TextAlign.left,
                     style: kMessageTextStyle,
-                  ),
+                  )
                 ),
               ],
             ),

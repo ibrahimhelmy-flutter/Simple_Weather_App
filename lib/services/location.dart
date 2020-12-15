@@ -14,6 +14,8 @@ class Location {
       longitude = position.longitude;
     } catch (e) {
       print(e);
+
+
     }
   }
 }
